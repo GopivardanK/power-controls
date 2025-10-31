@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us | Sai Balaji Power Controls LLP</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: #f8f9fa;
+      color: #333;
+    }
+
+    header {
+      background-color: #001f3f;
+      color: white;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      font-size: 1.8em;
+      letter-spacing: 1px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffcc00;
+    }
+
+    .about-section {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      padding: 60px 10%;
+      background: white;
+    }
+
+    .about-text {
+      flex: 1;
+      min-width: 300px;
+      padding-right: 30px;
+    }
+
+    .about-text h2 {
+      color: #001f3f;
+      margin-bottom: 20px;
+      font-size: 2em;
+    }
+
+    .about-text p {
+      line-height: 1.7;
+      margin-bottom: 15px;
+    }
+
+    .about-img {
+      flex: 1;
+      min-width: 300px;
+    }
+
+    .about-img img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .values {
+      background-color: #f0f0f5;
+      text-align: center;
+      padding: 50px 10%;
+    }
+
+    .values h3 {
+      color: #001f3f;
+      margin-bottom: 25px;
+      font-size: 1.8em;
+    }
+
+    .values-cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 25px;
+    }
+
+    .value-card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+      width: 280px;
+      padding: 20px;
+      transition: transform 0.3s;
+    }
+
+    .value-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .value-card h4 {
+      color: #001f3f;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background-color: #001f3f;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        text-align: center;
+      }
+      .about-section {
+        flex-direction: column;
+      }
+      .about-text {
+        padding-right: 0;
+        margin-bottom: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Sai Balaji Power Controls LLP</h1>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="about.html" style="color:#ffcc00;">About</a>
+      <a href="products.html">Products</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="about-section">
+    <div class="about-text">
+      <h2>About Us</h2>
+      <p>
+        Sai Balaji Power Controls LLP is a trusted name in electrical panel design, manufacturing, and supply. 
+        Established in 2011, we have grown into one of Hyderabad’s leading electrical solutions providers for residential, 
+        commercial, and industrial projects.
+      </p>
+      <p>
+        Our team specializes in creating tailor-made power distribution panels, bus ducts, cable trays, and control systems 
+        that meet the highest safety and efficiency standards. We focus on quality, reliability, and timely delivery 
+        to ensure customer satisfaction in every project we undertake.
+      </p>
+      <p>
+        With a dedicated in-house team and state-of-the-art manufacturing facilities, we continue to expand 
+        our reach across India with a mission to power infrastructure growth with excellence.
+      </p>
+    </div>
+    <div class="about-img">
+      <img src="https://images.unsplash.com/photo-1596495577886-d920f1fb7238?auto=format&fit=crop&w=1000&q=80" alt="Sai Balaji Electrical Team">
+    </div>
+  </section>
+
+  <section class="values">
+    <h3>Our Core Values</h3>
+    <div class="values-cards">
+      <div class="value-card">
+        <h4>⚙️ Quality</h4>
+        <p>We ensure every product is tested and built with precision using premium materials and advanced technology.</p>
+      </div>
+      <div class="value-card">
+        <h4>🤝 Integrity</h4>
+        <p>We believe in transparent business practices and long-term relationships with clients and partners.</p>
+      </div>
+      <div class="value-card">
+        <h4>🚀 Innovation</h4>
+        <p>Continuous improvement in design and production to meet evolving industry standards and requirements.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Sai Balaji Power Controls LLP | All Rights Reserved
+  </footer>
+
+</body>
+</html>
